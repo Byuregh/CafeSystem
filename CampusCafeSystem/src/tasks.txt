@@ -1,0 +1,97 @@
+https://docs.google.com/document/d/1sLsa-Adwnp0wI_wjv29J98rRe0ZbEOFQMM7Y8lBBgrk/edit
+
+Առաջադրանքի վերնագիր՝ Campus Café Ordering System (CCOS)
+Նպատակը:
+Մշակել Campus Café Ordering System Java-ի միջոցով՝ կենտրոնանալով օբյեկտի վրա հիմնված ծրագրավորման վրա (OOP):
+Այս համակարգը մոդելավորելու է համալսարանական սրճարանի թվային պատվերների գործընթացը՝ կառավարելով ընտրացանկի
+տարրերը, պատվերները և վճարումները:
+
+Հիմնական հատկանիշները.
+
+ 1. Մենյու կառավարում:
+Ավելացրեք ընտրացանկի տարր. թույլատրեք սրճարանի աշխատակիցներին նոր ապրանքներ ավելացնել մենյուում՝ ներառյալ մանրամասները,
+ինչպիսիք են ապրանքի ID-ն, անունը, նկարագրությունը, գինը և կատեգորիան (օրինակ՝ խմիչքներ, խորտիկներ, սնունդ):
+Թարմացնել ընտրացանկի տարրը. տրամադրել ֆունկցիոնալություն՝ փոփոխելու առկա ընտրացանկի տարրերը (փոխել գինը, նկարագրությունը և այլն):
+Հեռացնել ընտրացանկի տարրը. թույլ տվեք անձնակազմին ջնջել տարրերը ցանկից:
+
+ 2. Պատվերների մշակում.
+Պատվերի տեղադրում. Մատուցողների համար գործարկեք պատվերներ տեղադրելու հնարավորություն՝ ընտրացանկից ապրանքներ
+ընտրելով և քանակները նշելով:
+Դիտել պատվերը. Մատուցողները կարող են դիտել ընթացիկ պատվերները, ներառյալ բոլոր ապրանքները և ընդհանուր գինը:
+Չեղարկել կամ փոփոխել պատվերը. թույլ տվեք մատուցողներին չեղարկել ամբողջ պատվերը կամ փոփոխել այն
+(ավելացնել/հեռացնել ապրանքներ, փոխել քանակությունը) մինչև վերջնական ներկայացումը:
+
+ 3. Վճարում և վճարում.
+Ստեղծեք հաշիվ. Ավտոմատ ձևավորեք հաշիվ յուրաքանչյուր պատվերի համար՝ մանրամասնելով ապրանքները, քանակները և ընդհանուր
+ արժեքը: Նաև այն պետք է ներառի ծառայության վճար (ընդհանուր 10%), հարկ (ընդհանուր 20%) և թեյավճար (ընդհանուր 10%):
+
+ 4. Օգտվողի միջերես.
+Նախագծեք վահանակի վրա հիմնված ինտերֆեյս:
+Համոզվեք, որ ինտերֆեյսը հարմար է օգտագործողի համար, մենյուի կառավարման և պատվերների տեղադրման հստակ տարբերակներով:
+
+ 5. Տվյալների կայունություն.
+Իրականացնել ֆունկցիոնալությունը՝ համակարգի տվյալները (մենյուի տարրեր, պատվերներ, հաճախորդների հաշիվներ) պահելու
+և բեռնելու համար ֆայլից և դրանից:
+
+ 6. Պատվերների պատմություն.
+Դիտեք անցյալ պատվերները. Մատուցողները կարող են դիտել անցյալի պատվերները՝ տրամադրելով պատմություն ընտրված ամսաթվերի համար:
+
+ 7. Հատուկ առաջարկներ և զեղչեր.
+Սրճարանների անձնակազմի համար կիրառեք հատուկ առաջարկներ կամ զեղչեր ստեղծելու որոշակի մենյուի ապրանքների համար
+(օրինակ՝ Նախաճաշի գործարք. պատվեր, որը ներառում է 2 բաժակ սուրճ և 2 կրուասան (10% զեղչ)):
+
+
+Գնահատման չափանիշներ.
+  .Հատկանիշների ճիշտ և ամբողջական իրականացում։
+  .Կոդի որակը (անվանման կոնվենցիաների օգտագործումը, մեկնաբանությունները և այլն: P.S. Մաքուր ծածկագրի նշումներ):
+  .Սխալների մշակում և մուտքագրման վավերացում: (Ծրագիրը չպետք է փակվի որևէ տեսակի բացառության պատճառով)
+  .Տվյալների համապատասխան կառուցվածքների և ալգորիթմների օգտագործումը:
+  .Օգտվողի միջերեսի ձևավորում և օգտագործելիություն տերմինալում:
+  .Համակարգի ընդհանուր նախագծում և կազմակերպում:
+
+  --------------------------------------------------------------------------------------------------------
+
+  Assignment Title: Campus Café Ordering System (CCOS)
+  Objective:
+  Develop a Campus Café Ordering System using Java, focusing on Object-Oriented Programming (OOP).
+  This system will simulate a digital ordering process for a university café, managing menu items, orders, and billing.
+
+  Core Features:
+  1. Menu Management:
+  Add Menu Item: Enable café staff to add new items to the menu, including details like item ID, name, description,
+  price, and category (e.g., drinks, snacks, meals).
+  Update Menu Item: Provide functionality to modify existing menu items (change price, description, etc.).
+  Remove Menu Item: Allow staff to delete items from the menu.
+
+  2. Order Processing:
+  Place Order: Implement a feature for waiters to place orders, selecting items from the menu and specifying quantities.
+  View Order: Waiters can view current orders, including all items and the total price.
+  Cancel or Modify Order: Allow waiters to cancel the entire order or modify it (add/remove items, change quantities)
+  before final submission.
+
+  3. Billing and Payment:
+  Generate Bill: Automatically generate a bill for each order, detailing the items, quantities, and total cost.
+  Also that should include service fee(10% overall), tax(20% overall),and tip(10% overall).
+
+  4. User Interface:
+  Design a console-based interface.
+  Ensure the interface is user-friendly, with clear options for menu management and placing orders.
+
+  5. Data Persistence:
+  Implement functionality to save and load system data (menu items, orders, customer accounts) to and from a file.
+
+  6. Order History:
+  View Past Orders: Waiters can view past orders, providing a history for selected date range.
+
+  7.Special Offers and Discounts:
+  Implement a feature for café staff to create special offers or discounts on certain menu items(for example - Breakfast Deal:
+  order which includes 2 cups of coffee and 2 croissants (10% discount)).
+
+
+  Evaluation Criteria:
+   .Correct and complete implementation of the features.
+   .Code quality (use of naming conventions, comments, etc. P.S. Clean code notes).
+   .Error handling and input validation. (The application must not shut down because of any kind of exception)
+   .Use of appropriate data structures and algorithms.
+   .User interface design and usability in the terminal.
+   .Overall system design and organization.
